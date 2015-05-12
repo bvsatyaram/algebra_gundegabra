@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.vcenter {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#score-container {
+  height: 20vh;
+  background-color: #27ae60;
+  color: #FFF;
+}
+
+#score-container #question-score {
+  background-color: #2ecc71;
+}
+
+#score-container .score {
+  height: 20vh;
+  width: 50%;
+  float: left;
+  text-align: center;
+  font-size: 4vmin;
+}
+
+#numbers {
+  overflow: hidden;
+  background-color: #e74c3c;
+  color: #FFF;
+}
+
+#numbers .number.left {
+  background-color: #d35400;
+}
+
+#numbers .number {
+  height: 80vh;
+  width: 50%;
+  float: left;
+  text-align: center;
+  font-size: 10vmin;
+}
